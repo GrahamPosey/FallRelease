@@ -4,7 +4,7 @@ public class FirstCodeTest {
     public static void testFirstFunciton(){
         Test.startTest();
         	FirstCode.firstFunction();
-        System.debug('Test');
+        	System.debug('Test');
         Test.stopTest();
     }
 }
