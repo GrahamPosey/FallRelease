@@ -1,11 +1,10 @@
+@IsTest
 public with sharing class MdtUpdateTest {
-    @isTest
-    public static void methodName(){
-        
+
+
+    public static void mdtUpdateTestMethod(){
         Test.startTest();
-        System.runAs(contextuser){
             MdtUpdate.MdtRun();
-        }
         Test.stopTest();
         
     }
